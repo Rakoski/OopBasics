@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car("oii", 1988);
+        Car car = new Car("Corolla",  "Mateus");
 
         System.out.println(car);
     }
