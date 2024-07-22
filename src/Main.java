@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car("Corolla",  "Mateus");
+        Livro livro = new Livro("Sapiens", "Yuval Noah Harari");
 
-        System.out.println(car);
+        livro.exibeDetalhes();
     }
 }
