@@ -4,8 +4,8 @@ import br.edu.ifpr.matricula.modelo.*;
 
 public class ProfessorTeste {
     public static void main(String[] args) {
-        Professor professor = new Professor("Dra. Santos");
+        Professor professor = new Professor("Marcelo");
 
-        System.out.println("Nome do Professor: " + professor.getNome());
+        System.out.println(professor.getNome());
     }
 }
