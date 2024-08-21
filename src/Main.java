@@ -1,7 +1,12 @@
+import pizzaria.com.pizza.modelo.Endereco;
+import pizzaria.com.pizza.modelo.Pizzaiolo;
+
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car("Corolla",  "Mateus");
+        Pizzaiolo pizzaiolo = new Pizzaiolo();
+        Endereco e = pizzaiolo.getEndereco();
+        e.getCep();
 
-        System.out.println(car);
+        pizzaiolo.getEndereco().getCep();
     }
 }
