@@ -1,3 +1,7 @@
+package primeiro;
+
+import primeiro.Produto;
+
 public class TestteProduto {
 
 

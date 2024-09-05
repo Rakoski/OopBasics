@@ -1,3 +1,5 @@
+package primeiro;
+
 public class Car2 {
     String model;
     int year;
@@ -8,8 +10,8 @@ public class Car2 {
     }
 
     public void display() {
-        System.out.println("Car year = " + year);
-        System.out.println("Car model = " + model);
+        System.out.println("primeiro.Car year = " + year);
+        System.out.println("primeiro.Car model = " + model);
     }
 
 }

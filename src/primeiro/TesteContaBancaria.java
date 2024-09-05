@@ -1,3 +1,5 @@
+package primeiro;
+
 import java.util.Scanner;
 
 public class TesteContaBancaria {

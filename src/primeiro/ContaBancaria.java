@@ -1,3 +1,5 @@
+package primeiro;
+
 public class ContaBancaria {
     public String numeroConta;
     public String nomeTitular;

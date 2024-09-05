@@ -1,3 +1,5 @@
+package primeiro;
+
 public class Gamer {
       private String nome;
       private int idade;

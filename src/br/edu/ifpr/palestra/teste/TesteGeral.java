@@ -36,7 +36,7 @@ public class TesteGeral {
 
         System.out.println("Certificado:");
         System.out.println("Página: " + certificado.getPagina());
-        System.out.println("Livro: " + certificado.getLivro());
+        System.out.println("primeiro.Livro: " + certificado.getLivro());
         System.out.println("Folha: " + certificado.getFolha());
         System.out.println("Número: " + certificado.getNumeroDoCertificado());
 

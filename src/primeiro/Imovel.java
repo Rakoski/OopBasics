@@ -1,3 +1,5 @@
+package primeiro;
+
 public class Imovel {
         String endereco;
         double valorVenal;

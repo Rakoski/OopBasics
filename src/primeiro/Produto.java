@@ -1,3 +1,5 @@
+package primeiro;
+
 public class Produto {
     int codigo;
     String descricao;

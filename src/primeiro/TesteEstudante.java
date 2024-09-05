@@ -1,3 +1,5 @@
+package primeiro;
+
 public class TesteEstudante {
     public static void main(String[] args) {
         Estudante estudante = new Estudante("324234243", "Arquitetura");

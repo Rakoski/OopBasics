@@ -1,3 +1,5 @@
+package primeiro;
+
 public class Exemplo {
     String nome;
 

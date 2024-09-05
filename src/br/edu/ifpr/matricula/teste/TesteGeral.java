@@ -37,7 +37,7 @@ public class TesteGeral {
 
         System.out.println("RA: " + matricula.getRa());
         System.out.println("Data: " + matricula.getData());
-        System.out.println("Estudante: " + matricula.getEstudante().getNome());
+        System.out.println("primeiro.Estudante: " + matricula.getEstudante().getNome());
         System.out.println("Turma: " + matricula.getTurma().getNome());
     }
 }

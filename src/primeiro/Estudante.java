@@ -1,3 +1,5 @@
+package primeiro;
+
 public class Estudante {
     String ra;
     String curso;
