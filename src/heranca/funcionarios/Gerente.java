@@ -1,17 +1,17 @@
 package heranca.funcionarios;
 
 public final class Gerente extends Funcionario {
-    private String departamento;
+    protected String departamento;
 
-    public Gerente(String nome, String dataNascimento) {
-        super(nome, dataNascimento);
+    protected Gerente(String nome, String dataNascimento) {
+        super(nome, dataNascimento, 40);
     }
 
-    public String getDepartamento() {
+    protected String getDepartamento() {
         return departamento;
     }
 
-    public void setDepartamento(String departamento) {
+    protected void setDepartamento(String departamento) {
         this.departamento = departamento;
     }
 

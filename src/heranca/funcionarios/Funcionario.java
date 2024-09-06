@@ -1,15 +1,21 @@
 package heranca.funcionarios;
 
 public class Funcionario {
-    private String nome;
-    private String dataNascimento;
+    protected String nome;
+    protected String dataNascimento;
+    protected int salario;
 
-    public Funcionario(String nome, String dataNascimento) {
+    protected Funcionario(String nome, String dataNascimento, int quantidadeDeHorasTrabalhadas) {
         this.nome = nome;
         this.dataNascimento = dataNascimento;
+        this.salario = calculaSalario(quantidadeDeHorasTrabalhadas);
     }
 
-    public String getNome() {
+    protected int calculaSalario(int quantidadeDeHorasTrabalhadas) {
+        return salario + quantidadeDeHorasTrabalhadas;
+    }
+
+    protected String getNome() {
         return nome;
     }
 
@@ -17,7 +23,7 @@ public class Funcionario {
         this.nome = nome;
     }
 
-    public String getDataNascimento() {
+    protected String getDataNascimento() {
         return dataNascimento;
     }
 

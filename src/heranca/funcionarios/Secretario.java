@@ -2,17 +2,17 @@ package heranca.funcionarios;
 
 
 public final class Secretario extends Funcionario {
-    private String telefone;
+    protected String telefone;
 
-    public Secretario(String nome, String dataNascimento) {
-        super(nome, dataNascimento);
+    protected Secretario(String nome, String dataNascimento) {
+        super(nome, dataNascimento, 35);
     }
 
-    public String getTelefone() {
+    protected String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(String telefone) {
+    protected void setTelefone(String telefone) {
         this.telefone = telefone;
     }
 
